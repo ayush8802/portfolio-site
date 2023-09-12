@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(1, 1, 84);
+    color: white;
+    font-family: "Tektur", cursive;
+  }
+
+  main hr {
+    border: 0;
+    background: white;
+    height: 1.5px;
+    margin: 10px 20px;
+  }
+
+
+/* navbar star */
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(6, 13, 129);
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(240, 140, 8);
+    font-size: 1.04rem;
+  }
+
+
+/* first section */
+
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+  }
+  
+
+  .firstsection > div {
+    width: 40%;
+  }
+
+  .leftsection {
+    font-size: 3rem;
+   
+  }
+
+  .rightsection img {
+    width: 100%;
+  }
+
+  .name {
+    color: rgb(12, 247, 212);
+  }
+
+  #element {
+    color: rgb(229, 147, 25);
+  }
+
+
+/* second section start */
+
+.secondsection {
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+  }
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .leftsection1 {
+    font-size: 1.1rem;
+   text-align: left;
+  }
+
+  .secondsection div{
+    font-size: 30px;
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .secondsection > div {
+    width: 40%;
+  }
+
+  .rightsection1 img {
+    margin-top: 100px;
+    width: 70%;
+  }
+
+
+/* third section start */
+
+.thirdsection {
+
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+    font-size: large;
+    margin-left: 52px;
+  }
+
+  .thirdsection div{
+    font-size: 30px;
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .thirdsection > div {
+    width: 40%;
+  }
+
+  .leftmost {
+    font-size: 1.1rem;
+   text-align: left;
+  }
+
+
+  /* section four */
+
+  .sectionfour {
+
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 40px;
+    font-size: 30px;
+    margin-left: 52px;
+  }
+
+  .sectionfour ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+
+  .sectionfour ul li a:hover {
+    text-decoration: underline;
+    color: rgb(240, 140, 8);
+    font-size: 1.04rem;
+  }
+
+/* footer start */
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(6, 13, 129);
+  }
+
+
+  .leftfooter a{
+    text-align: left;
+    margin-left: 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .leftfooter a:hover{
+    text-align: right;
+    margin-right: 20px;
+    color: rgb(223, 132, 12);
+    text-decoration: underline;
+  }
+
+  .rightfooter{
+    text-align: right;
+    margin-right: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+
+/* start of contact me */
+
+.dropbtn {
+background-color: transparent;
+
+/* padding: 16px;
+font-size: 16px;
+border: none; */
+}
+
+.dropdown {
+/* position: relative; */
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(6, 167, 167);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px aqua;
+z-index: 1;
+}
+
+.dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+table,th,td{
+border: 1px solid white;
+border-collapse: collapse;
+text-align: center;
+}
+
+table tr td a{
+text-decoration: none;
+    color: antiquewhite;
+}
+
+table tr td a:hover{
+text-decoration: underline;
+    color: rgb(240, 140, 8);
+    font-size: 1.04rem;
+}
+
+table th{
+font-size: 30px;
+}
+table td{
+font-size: 20px;
+}
+
+
+
+.sectionfive {
+
+text-align: center;
+display: flex;
+justify-content: space-around;
+margin: 100px 20px;
+}
+
+h1 {
+font-size: 50px;
+text-align: center;
+margin: 50px;
+}
+
+.leftsection5 {
+font-size: 7rem;
+text-align: left;
+}
+
+.sectionfive div{
+font-size: 30px;
+color: aqua;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+.sectionfive > div {
+width: 40%;
+}
+
+.rightsection5 img {
+margin-top: 100px;
+width: 70%;
+}
